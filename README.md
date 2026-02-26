@@ -1,30 +1,30 @@
-#SHORT & STRONG (1-PAGE ENGLISH VERSION)
+# SHORT & STRONG (1-PAGE ENGLISH VERSION)
 
-##Canvapress™
+## Canvapress™
 
-##Fixed-Packet Reversible Canvas Runtime
+## Fixed-Packet Reversible Canvas Runtime
 
-##Canvapress is not a compression algorithm.
+## Canvapress is not a compression algorithm.
 
-###It is a fixed-size reversible container and runtime system
-###that maps arbitrary binary data into a deterministic 512×512 canvas.
+### It is a fixed-size reversible container and runtime system
+### that maps arbitrary binary data into a deterministic 512×512 canvas.
 
 
 ---
 
-##What Makes It Different
+## What Makes It Different
 
-##Fixed Packet Size
-###Output size is deterministic.
-###No variable-length compression behavior.
+## Fixed Packet Size
+### Output size is deterministic.
+### No variable-length compression behavior.
 
-##Decode = Execution
+## Decode = Execution
 Restoration is a state transition driven by integer arithmetic and bit operations.
 
-##Compression-State Usability
+## Compression-State Usability
 The canvas itself is structured data, not opaque compressed bytes.
 
-##Mathematically Reversible
+## Mathematically Reversible
 Full trace convergence verification:
 
 BA empty
@@ -36,28 +36,28 @@ RG restored to baseline
 
 ---
 
-##Performance (Python Reference)
+## Performance (Python Reference)
 
-###Payload	Encode	Decode	Ratio
+### Payload	Encode	Decode	Ratio
 
 1 KB	0.07s	0.02s	0.30
 10 KB	0.59s	0.18s	0.30
 25 KB	1.42s	0.44s	0.31
 
 
-###Linear scaling
+### Linear scaling
 
-###Decode faster than encode
+### Decode faster than encode
 
-###100% reversible integrity
+### 100% reversible integrity
 
 
 
 ---
 
-##Capacity
+## Capacity
 
-###With current RG constraints (3.125% of u64 range):
+### With current RG constraints (3.125% of u64 range):
 
 ~1–2 TB theoretical reversible capacity
 
