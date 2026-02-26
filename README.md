@@ -1,5 +1,3 @@
-
-
 🔷 1️⃣ SHORT & STRONG (1-PAGE ENGLISH VERSION)
 
 Canvapress™
